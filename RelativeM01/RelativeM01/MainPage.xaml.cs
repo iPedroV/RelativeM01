@@ -18,9 +18,12 @@ namespace RelativeM01
             InitializeComponent();
         }
 
-        private void T1(object sender, EventArgs e)
+        private async void T1(object sender, EventArgs e)
         {
-
+            img1.Opacity = 0.5;
+            await Task.Delay(200);
+            img1.Opacity = 1;
+            await DisplayAlert("SALVE", "SALVE", "OK");
         }
     }
 }

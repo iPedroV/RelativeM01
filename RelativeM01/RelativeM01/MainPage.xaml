@@ -56,10 +56,10 @@
                 }"
                 RelativeLayout.XConstraint="{ConstraintExpression
                 Type=RelativeToView,
-                ElementName=box1,
+                ElementName=box2,
                 Property=Width,
                 Factor=1, 
-                Constant=-390
+                Constant=-80
                 }" 
                 HorizontalOptions="Center"
                 VerticalOptions="Center"/>
